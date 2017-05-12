@@ -982,7 +982,7 @@ input::-moz-focus-inner {
 	display: inline-block;
 	margin: 0 1.5rem 3rem 0;
 	padding: 0 1.5rem 0 0;
-	border-right: 1px solid #ccc;
+	border-right: 1px solid #cccccc;
 }
 
 .stats-tabs li:last-child {
@@ -1521,7 +1521,7 @@ header .logo a {
 #features {
 	padding: 10rem 0 10rem;
 	background-color: #f9da4f;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 #features .features-wrap {
@@ -1539,7 +1539,7 @@ header .logo a {
 
 #features .feature-count {
 	display: block;
-	color: #c60c30;
+/*	color: #0e0e0e; */
 	font-family: "roboto-bold", serif;
 	font-size: 4rem;
 	line-height: 1;
@@ -2136,8 +2136,8 @@ header .logo a {
 #testimonials .slides li .author-info {
 	font-size: 1.6rem;
 	font-family: "roboto-black", sans-serif;
-	font-style: normal;
-	text-transform: uppercase;
+	font-style: normal; 
+	/* text-transform: uppercase; */
 	letter-spacing: .2rem;
 }
 
@@ -2447,7 +2447,7 @@ footer a:active {
 }
 
 .footer-social-wrap {
-	background: #111;
+	background: #292c35;
 }
 
 .footer-social-list {
@@ -2466,7 +2466,7 @@ footer a:active {
 	line-height: 3rem;
 	color: #FFFFFF;
 	display: block;
-	padding: 4.2rem 5rem 4.8rem;
+	padding: 3.2rem 5rem 3.2rem;
 	border-right: 1px solid rgba(255, 255, 255, 0.02);
 }
 
@@ -2551,7 +2551,7 @@ footer a:active {
 	height: 6.6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #000000;
+	background: #ce1137;
 	color: #FFFFFF;
 }
 
@@ -2562,7 +2562,7 @@ footer a:active {
 
 #go-top a:hover,
 #go-top a:focus {
-	background: #ce1137;
+	background: #000000;
 }
 
 /* ------------------------------------------------------------------- 
