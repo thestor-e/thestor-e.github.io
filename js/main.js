@@ -241,7 +241,7 @@
 	* ------------------------------------------------------ */
 
 	// Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-	var mailChimpURL = 'http://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e65110b38d'
+	var mailChimpURL = 'http://marketstreat.us9.list-manage1.com/subscribe?u=9b491e642029be7acea409f23&id=fd01626603'
 
 	$('#mc-form').ajaxChimp({
 
@@ -263,7 +263,7 @@
 
 	$.ajaxChimp.translations.es = {
 	  'submit': 'Submitting...',
-	  0: '<i class="fa fa-check"></i> We have sent you a confirmation email',
+	  0: '<i class="fa fa-check"></i> We have sent you a confirmation email to confirm your subscription',
 	  1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
 	  2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
 	  3: '<i class="fa fa-warning"></i> E-mail address is not valid.',

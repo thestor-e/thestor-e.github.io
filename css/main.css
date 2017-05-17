@@ -164,7 +164,7 @@ p img {
 
 p.lead {
 	font-family: "roboto-regular", sans-serif;
-	font-size: 2.0rem;
+	font-size: 1.8rem;
 	line-height: 1.414;
 	
 }
@@ -1375,7 +1375,7 @@ header .logo a {
 #intro h3 {
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.8);
-    color: #111111;
+    color: #F1F1F1;
 	margin-bottom: .6rem; 
 }
 
