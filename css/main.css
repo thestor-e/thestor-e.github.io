@@ -85,7 +85,7 @@ body {
  * ------------------------------------------------------------------- */
 a,
 a:visited {
-	color: #c60c30;
+	color: #0e0e0e;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -340,7 +340,7 @@ ul.disc li::before {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #c60c30;
+	background: #0e0e0e;
 	position: absolute;
 	left: -17px;
 	top: 11px;
@@ -349,7 +349,7 @@ ul.disc li::before {
 
 dt {
 	margin: 0;
-	color: #c60c30;
+	color: #0e0e0e;
 }
 
 dd {
@@ -828,8 +828,8 @@ button.stroke.large,
 
 button.stroke:hover,
 .button.stroke:hover {
-	border: 3px solid #c60c30;
-	color: #c60c30;
+	border: 3px solid #0e0e0e;
+	color: #0e0e0e;
 }
 
 button::-moz-focus-inner,
@@ -1000,7 +1000,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-	color: #c60c30;
+	color: #0e0e0e;
 }
 
 .stats-tabs li a em {
@@ -1030,7 +1030,7 @@ input::-moz-focus-inner {
 }
 
 .section-intro h5 {
-	color: #c60c30;
+	color: #0e0e0e;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1375,7 +1375,7 @@ header .logo a {
 #intro h3 {
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.8);
-    color: #F1F1F1;
+    color: #292c35;
 	margin-bottom: .6rem; 
 }
 
@@ -1383,7 +1383,7 @@ header .logo a {
 	font-family: "domine-bold", serif;
 	font-size: 5.0rem;
 	line-height: 1;
-	color: #E1E1E1;
+	color: #3f4452;
 	padding: 0 10%;
 }
 
@@ -1399,8 +1399,8 @@ header .logo a {
 
 #intro .buttons .button:hover,
 #intro .buttons .button:focus {
-	border: 3px solid #c60c30;
-	color: #c60c30;
+	border: 3px solid #3f4452;
+	color: #3f4452;
 }
 
 #intro img {
@@ -1518,7 +1518,7 @@ header .logo a {
  * ------------------------------------------------------------------- */
 #features {
 	padding: 10rem 0 10rem;
-	background-color: #C7D9B7;
+    background-color: #EACDC2;
     overflow: hidden;
 }
 
@@ -1533,6 +1533,12 @@ header .logo a {
 
 #features h3 {
 	font-family: "roboto-medium", sans-serif;
+}
+
+#features .lead {
+	font-family: "roboto-regular", sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.814;
 }
 
 #features .feature-count {
@@ -1591,7 +1597,7 @@ header .logo a {
 	position: absolute;
 	left: 50%;
 	top: 0;
-	background: rgba(63, 80, 96, 0.15);
+	background: rgba(63, 80, 96, 0.15); 
 }
 
 .info-entry .info-entry-content {
@@ -1879,7 +1885,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 #pricing {
-	background: #e2e5e7;
+    background: #EACDC2;
 	padding-top: 12rem;
 	padding-bottom: 9.6rem;
 }
@@ -1947,7 +1953,7 @@ header .logo a {
 	margin-bottom: 1.2rem;
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.8rem;
-	color: #3f4452;
+    color:#555c6f;
 }
 
 .pricing-content .price-block .features {
@@ -1975,8 +1981,8 @@ header .logo a {
 }
 
 .pricing-content .price-block .button {
-	background: #3f4452;
-	color: #FFFFFF;
+	background: #F1F1F1;
+	color: #3f4452;
 	padding: 0 5rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -1984,8 +1990,8 @@ header .logo a {
 
 .pricing-content .price-block .button:hover,
 .pricing-content .price-block .button:focus {
-	background: #c60c30;
-	color: #FFFFFF;
+	background: #0e0e0e;
+	color: #ffffff;
 }
 
 .pricing-content .primary {
@@ -2030,13 +2036,14 @@ header .logo a {
 }
 
 .pricing-content .primary .button {
-	background: #FFFFFF;
+	background: #ffffff;
 	color: #3f4452;
 }
 
 .pricing-content .primary .button:hover,
 .pricing-content .primary .button:focus {
-	background: #c60c30;
+	background: #0e0e0e;
+    color: #ffffff;
 }
 
 .pricing-content .primary .features {
@@ -2101,8 +2108,8 @@ header .logo a {
  * ------------------------------------------------------------------- */
 #testimonials {
 	padding: 12rem 0 10.2rem;
-	background: #FFFFFF;
-	text-align: center;
+    background: #ffffff;
+    text-align: center;
 }
 
 #testimonials h2 {
@@ -2232,7 +2239,7 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-    background: #292c35;
+    background: #3f4452;
 	opacity: .85;
 }
 
@@ -2246,22 +2253,22 @@ header .logo a {
 	font-size: 4.8rem;
 	line-height: 1.25;
 	margin-bottom: 1.8rem;
-	color: white;
+	color: #ffffff;
 }
 
 #download .lead {
-	color: rgba(255, 255, 255, 0.6);
+    color: #ffffff;
 }
 
 #download .button {
-	background: #FFFFFF;
-	color: #292c35;
+    background: rgba(255, 255, 255, 0.7);
+	color: #3f4452;
 	margin: .6rem 0 1.5rem 0;
 }
 
 #download .button:hover,
 #download .button:focus {
-	background: #c60c30;
+	background: #0e0e0e;
     color: #FFFFFF;
 }
 
@@ -2303,10 +2310,9 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 #subscribe {
-	background: #3f4452;
+	background: #F1F1F1;
 	padding: 10.2rem 0 6rem;
 	text-align: center;
-	color: #FFFFFF;
 }
 
 #subscribe .subscribe-content {
@@ -2322,25 +2328,26 @@ header .logo a {
 #subscribe #mc-form input[type="email"] {
 	width: 100%;
 	text-align: left;
-	color: rgba(255, 255, 255, 0.7);
-	background: rgba(0, 0, 0, 0.3);
+    color:#ffffff;
+    background: rgba(255, 255, 255, 0.2);
 }
 
 #subscribe #mc-form input[type="email"]:focus {
-	background: rgba(0, 0, 0, 0.5);
-	color: white;
+    background: #ffffff;
+	color: #3f4452;
 }
 
 #subscribe #mc-form .button {
 	margin: 0;
 	width: 100%;
-	background: #FFFFFF;
+	background: #3f4452;
+    color: #ffffff;
 }
 
 #subscribe #mc-form .button:hover,
 #subscribe #mc-form .button:focus {
-	background: #c60c30;
-    color: #FFFFFF;
+	background: #0e0e0e;
+    color: #ffffff;
 }
 
 #subscribe #mc-form label {
@@ -2360,7 +2367,7 @@ header .logo a {
 	font-size: 3.8rem;
 	line-height: 1.5;
 	margin-bottom: 1.8rem;
-	color: white;
+	color: 3f4452;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2440,7 +2447,7 @@ footer a:visited {
 footer a:hover,
 footer a:focus,
 footer a:active {
-	color: #c60c30;
+	color: #0e0e0e;
 	outline: 0;
 }
 
@@ -2471,7 +2478,7 @@ footer a:active {
 .footer-social-list li a:hover,
 .footer-social-list li a:focus,
 .footer-social-list li a:active {
-	color: #c60c30;
+	color: #0e0e0e;
 }
 
 .footer-social-list li:first-child a {
@@ -2549,7 +2556,7 @@ footer a:active {
 	height: 6.6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #ce1137;
+	background: #3f4452;
 	color: #FFFFFF;
 }
 
