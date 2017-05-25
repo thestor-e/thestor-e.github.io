@@ -2436,7 +2436,7 @@ footer {
 
 footer a,
 footer a:visited {
-	color: #FFFFFF;
+	color: #3f4452;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -2447,7 +2447,7 @@ footer a:visited {
 footer a:hover,
 footer a:focus,
 footer a:active {
-	color: #0e0e0e;
+	color: #ffffff;
 	outline: 0;
 }
 
@@ -2492,7 +2492,7 @@ footer a:active {
 
 .footer-info a,
 .footer-info a:visited {
-	color: #292c35;
+	color: #3f4452;
 }
 
 .footer-info a:hover,
