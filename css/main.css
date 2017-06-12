@@ -2551,8 +2551,8 @@ footer a:active {
  * ------------------------------------------------------------------- */
 #go-top {
 	position: fixed;
-	bottom: 0;
-	right: 0;
+	bottom: 294px;
+	right: 0px;
 	z-index: 800;
 	display: none;
 }
@@ -2561,9 +2561,9 @@ footer a:active {
 	text-decoration: none;
 	border: none;
 	display: block;
-	width: 6rem;
-	height: 6.6rem;
-	line-height: 6.6rem;
+	width: 5rem;
+	height: 6rem;
+	line-height: 5.6rem;
 	text-align: center;
 	background: #3f4452;
 	color: #FFFFFF;
