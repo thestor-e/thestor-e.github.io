@@ -1474,7 +1474,8 @@ header .logo a {
 
 	#intro h3 {
 		font-size: 1.6rem;
-		letter-spacing: .3rem;
+		letter-spacing: .2rem;
+        line-height: 1.5rem;
 	}
 
 	#intro h1 {
