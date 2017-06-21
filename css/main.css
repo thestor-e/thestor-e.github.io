@@ -2143,8 +2143,9 @@ header .logo a {
 
 #testimonials .slides li p {
 	font-family: "domine-regular", serif;
-	font-size: 2rem;
+	font-size: 1.7rem;
 	line-height: 1.5;
+    text-align: left;
 }
 
 #testimonials .slides li .author-info {
@@ -2153,6 +2154,7 @@ header .logo a {
 	font-style: normal; 
 	/* text-transform: uppercase; */
 	letter-spacing: .2rem;
+    text-align: left;
 }
 
 #testimonials .flexslider-controls {
